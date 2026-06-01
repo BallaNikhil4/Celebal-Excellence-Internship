@@ -1,0 +1,11 @@
+This assignment was completed using Python and the Pandas library for basic data exploration and cleaning.
+
+The main tasks performed were:
+
+Loaded the Combined_dataset from file into a Pandas DataFrame.
+Explored the dataset by viewing sample rows, checking the shape, column names, and data types.
+Identified missing values and handled them using suitable fill and drop methods.
+Performed basic operations such as filtering rows and selecting required columns.
+Checked for duplicate records and removed them from the dataset.
+Created a new column named total_amount based on price and quantity values.
+Saved the cleaned dataset as a new CSV file(name = "Cleaned_Combined_dataset") for further use.
