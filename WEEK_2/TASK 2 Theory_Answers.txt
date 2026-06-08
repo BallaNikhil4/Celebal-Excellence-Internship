@@ -1,0 +1,150 @@
+Q4. Identify the Primary Key of each table in the schema. Explain why a Primary Key must be unique and NOT NULL.
+
+Answer:
+
+Primary keys in the schema are:
+
+customers → customer_id
+products → product_id
+orders → order_id
+order_items → item_id
+
+A primary key is used to uniquely identify each record in a table. It must be unique so that no two rows have the same value. It must also be NOT NULL because every record should have a valid identifier. This helps in maintaining data integrity and avoiding duplicate records.
+
+Q5. What constraints are applied to the email column in the customers table? What would happen if you tried to insert a duplicate email?
+
+Answer:
+
+The email column has two constraints: UNIQUE and NOT NULL.
+
+The UNIQUE constraint ensures that no two customers can have the same email address. The NOT NULL constraint ensures that every customer must provide an email address.
+
+If a duplicate email is inserted, the database will return an error because it violates the UNIQUE constraint.
+
+Q6. Try inserting a product with unit_price = -50. What happens and which constraint prevents it?
+
+Answer:
+
+When I tried to insert a product with unit_price = -50, MySQL returned an error and the record was not inserted.
+
+This happened because of the CHECK constraint:
+
+check (unit_price > 0)
+
+The constraint ensures that only positive values can be stored in the unit_price column.
+
+Q11. Explain what the index idx_orders_date does. How would it improve query performance? Write a sample query.
+
+Answer:
+
+The idx_orders_date index is created on the order_date column of the orders table.
+
+It helps the database find records faster when queries use the order_date column for filtering or sorting. Instead of checking every row in the table, the database can use the index to locate matching records more efficiently.
+
+Sample query:
+
+select *
+from orders
+where order_date >= '2024-08-10';
+Q12. If you run SELECT * FROM customers WHERE YEAR(join_date) = 2024;, would the index on join_date be used? Explain why or why not, and rewrite the query to be index-friendly.
+
+Answer:
+
+No, the index would generally not be used efficiently because the YEAR() function is applied to the join_date column. The database has to calculate the year for every row before filtering the results.
+
+A better approach is to use a date range:
+
+select *
+from customers
+where join_date >= '2024-01-01'
+and join_date < '2025-01-01';
+
+This type of query is more efficient because the database can use the index directly.
+
+Q22. Explain the difference between LEFT JOIN and RIGHT JOIN with an example from this schema. When would you use a FULL OUTER JOIN?
+
+Answer:
+
+A LEFT JOIN returns all records from the left table and matching records from the right table. If there is no match, NULL values are returned for the right table columns.
+
+A RIGHT JOIN returns all records from the right table and matching records from the left table. If there is no match, NULL values are returned for the left table columns.
+
+For example, if we use a LEFT JOIN between customers and orders, all customers will be displayed even if they have not placed any orders.
+
+A FULL OUTER JOIN is used when we want all records from both tables, including unmatched records from either side.
+
+Q23. Identify all Foreign Key relationships in the schema. Explain what would happen if you tried to insert an order with customer_id = 999.
+
+Answer:
+
+Foreign key relationships in the schema are:
+
+orders.customer_id → customers.customer_id
+order_items.order_id → orders.order_id
+order_items.product_id → products.product_id
+
+If I try to insert an order with customer_id = 999 and that customer does not exist in the customers table, the database will return an error. This happens because the foreign key constraint ensures that every customer_id in the orders table must already exist in the customers table.
+
+Q26. Explain each letter of ACID. Give a real-world example.
+
+Answer:
+
+ACID properties help maintain reliability and correctness in database transactions.
+
+A – Atomicity
+
+Atomicity means a transaction is completed fully or not completed at all. If any step fails, the entire transaction is rolled back.
+
+C – Consistency
+
+Consistency ensures that the database remains valid before and after a transaction. All rules and constraints must be satisfied.
+
+I – Isolation
+
+Isolation means multiple transactions can run at the same time without affecting each other.
+
+D – Durability
+
+Durability means once a transaction is committed, the changes are permanently stored even if the system crashes.
+
+Example:
+
+Consider a bank transfer of ₹1000 from Account A to Account B.
+
+Atomicity ensures both debit and credit happen together.
+Consistency ensures account balances remain correct.
+Isolation prevents interference from other transactions.
+Durability ensures the transfer remains saved after it is committed.
+Q27. Write a SQL transaction that performs the given operations atomically.
+
+Answer:
+
+The transaction inserts a new order, adds order items, updates product stock, and commits all changes together.
+
+If any step fails, the transaction should be rolled back so that no partial changes remain in the database.
+
+start transaction;
+
+insert into orders
+values
+(1011, 102, curdate(), 'Pending', 1598.00);
+
+insert into order_items
+values
+(5016, 1011, 206, 1, 1299.00, 0);
+
+insert into order_items
+values
+(5017, 1011, 208, 1, 299.00, 0);
+
+update products
+set stock_qty = stock_qty - 1
+where product_id = 206;
+
+update products
+set stock_qty = stock_qty - 1
+where product_id = 208;
+
+commit;
+
+This ensures that all operations are treated as a single transaction. If any operation fails, the transaction can be rolled back to keep the database consistent.
