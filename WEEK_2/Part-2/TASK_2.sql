@@ -106,28 +106,22 @@ INSERT INTO order_items VALUES
 
 -- q1. write a query to display all columns and rows from the customers table
 
-select *
-from customers;
+select * from customers;
 
 
 -- q2. retrieve only the first_name, last_name and city of all customers
 
-select first_name,
-       last_name,
-       city
-from customers;
+select first_name,last_name,city from customers;
 
 
 -- q3. list all unique categories available in the products table
 
-select distinct category
-from products;
+select distinct category from products;
 
 
 -- q6. try inserting a product with unit_price = -50
 
-insert into products
-values(
+insert into products values(
 209,
 'test product',
 'electronics',
@@ -139,83 +133,67 @@ values(
 
 -- q7. retrieve all orders with status = 'Delivered'
 
-select *
-from orders
-where status = 'Delivered';
+select * from orders where status='Delivered';
 
 
 -- q8. find all products in the electronics category with unit_price greater than 2000
 
-select *
-from products
-where category = 'Electronics'
-and unit_price > 2000;
+select * from products
+where category='Electronics' and unit_price>2000;
 
 
 -- q9. list all customers who joined in 2024 and belong to maharashtra
 
-select *
-from customers
-where state = 'Maharashtra'
-and year(join_date) = 2024;
+select * from customers
+where state='Maharashtra' and year(join_date)=2024;
 
 
 -- q10. find all orders placed between 2024-08-10 and 2024-08-25 that are not cancelled
 
-select *
-from orders
+select * from orders
 where order_date between '2024-08-10' and '2024-08-25'
-and status <> 'Cancelled';
+and status<>'Cancelled';
 
 
 -- q11. sample query using order_date
 
-select *
-from orders
-where order_date >= '2024-08-10';
+select * from orders where order_date>='2024-08-10';
 
 
 -- q12. given query
 
-select *
-from customers
-where year(join_date) = 2024;
+select * from customers where year(join_date)=2024;
 
 
 -- q12. rewritten query
 
-select *
-from customers
-where join_date >= '2024-01-01'
-and join_date < '2025-01-01';
+select * from customers
+where join_date>='2024-01-01'
+and join_date<'2025-01-01';
 
 
 -- q13. count total number of orders
 
-select count(*) as total_orders
-from orders;
+select count(*) as total_orders from orders;
 
 
 -- q14. total revenue from delivered orders
 
 select sum(total_amount) as total_revenue
 from orders
-where status = 'Delivered';
+where status='Delivered';
 
 
 -- q15. average unit price of products in each category
 
-select category,
-       round(avg(unit_price),2) as average_price
+select category,round(avg(unit_price),2) as average_price
 from products
 group by category;
 
 
 -- q16. count of orders and total revenue for each status
 
-select status,
-       count(*) as total_orders,
-       sum(total_amount) as total_revenue
+select status,count(*) as total_orders,sum(total_amount) as total_revenue
 from orders
 group by status
 order by total_revenue desc;
@@ -223,75 +201,55 @@ order by total_revenue desc;
 
 -- q17. most expensive and cheapest product in each category
 
-select category,
-       max(unit_price) as most_expensive,
-       min(unit_price) as cheapest
+select category,max(unit_price) as most_expensive,min(unit_price) as cheapest
 from products
 group by category;
 
 
 -- q18. categories where average unit price is greater than 2000
 
-select category,
-       round(avg(unit_price),2) as average_price
+select category,round(avg(unit_price),2) as average_price
 from products
 group by category
-having avg(unit_price) > 2000;
+having avg(unit_price)>2000;
 
 
 -- q19. display order details along with customer names
 
-select o.order_id,
-       o.order_date,
-       c.first_name,
-       c.last_name,
-       o.total_amount
+select o.order_id,o.order_date,c.first_name,c.last_name,o.total_amount
 from orders o
-inner join customers c
-on o.customer_id = c.customer_id;
+inner join customers c on o.customer_id=c.customer_id;
 
 
 -- q20. list all customers and their orders using left join
 
-select c.customer_id,
-       c.first_name,
-       c.last_name,
-       o.order_id,
-       o.order_date
+select c.customer_id,c.first_name,c.last_name,o.order_id,o.order_date
 from customers c
-left join orders o
-on c.customer_id = o.customer_id;
+left join orders o on c.customer_id=o.customer_id;
 
 
 -- q21. display order items with product details
 
-select o.order_id,
-       p.product_name,
-       oi.quantity,
-       oi.unit_price,
-       oi.discount_pct
+select o.order_id,p.product_name,oi.quantity,oi.unit_price,oi.discount_pct
 from orders o
-join order_items oi
-on o.order_id = oi.order_id
-join products p
-on oi.product_id = p.product_id;
+join order_items oi on o.order_id=oi.order_id
+join products p on oi.product_id=p.product_id;
 
 
 -- q24. classify products into price tiers using case
 
-select product_name,
-       unit_price,
-       case
-           when unit_price < 1000 then 'Budget'
-           when unit_price between 1000 and 3000 then 'Mid-Range'
-           else 'Premium'
-       end as price_tier
+select product_name,unit_price,
+case
+when unit_price<1000 then 'Budget'
+when unit_price between 1000 and 3000 then 'Mid-Range'
+else 'Premium'
+end as price_tier
 from products;
 
 
 -- q25. count delivered and not delivered orders
 
 select
-sum(case when status = 'Delivered' then 1 else 0 end) as delivered_orders,
-sum(case when status <> 'Delivered' then 1 else 0 end) as not_delivered_orders
+sum(case when status='Delivered' then 1 else 0 end) as delivered_orders,
+sum(case when status<>'Delivered' then 1 else 0 end) as not_delivered_orders
 from orders;
