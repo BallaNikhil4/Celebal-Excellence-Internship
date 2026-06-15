@@ -1,0 +1,9 @@
+What i did in this assignment
+
+started with the superstore dataset and split it into three tables - customers, orders, and products. selected the needed columns for each table and used select distinct while inserting data to avoid duplicate records.
+
+then wrote different queries to analyze the sales data. used subqueries to find orders with sales above the average and to get the highest sale for each customer. used CTEs to calculate total sales and find customers whose sales were above the average. also used window functions to rank customers based on sales and give row numbers to each order for a customer.
+
+for the mini project, found the top 5 and bottom 5 customers by sales, customers who placed only one order, customers with above-average sales, and the highest order value for each customer.
+
+one thing i noticed was that the customers table had duplicate rows for the same customer with different addresses. because of that, i used select distinct customer_id, customer_name from customers in the joins to avoid duplicate results. it worked well.
