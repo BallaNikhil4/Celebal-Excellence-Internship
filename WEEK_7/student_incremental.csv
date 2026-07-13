@@ -1,0 +1,4 @@
+StudentID,Name,Department,Year,Gender,Age,Attendance,Marks,CGPA,City,Scholarship,Email
+1003,Arjun Verma,CS,3,M,21,90,91,9.1,Bangalore,Yes,arjun.verma@univ.edu
+1021,Rahul Kumar,IT,2,M,20,88,84,8.4,Hyderabad,No,rahul.kumar@univ.edu
+1022,Sneha Reddy,ECE,4,F,22,95,93,9.4,Chennai,Yes,sneha.reddy@univ.edu
