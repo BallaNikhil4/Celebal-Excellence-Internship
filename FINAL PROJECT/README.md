@@ -1,4 +1,5 @@
-# CityReads — Medallion Data Pipeline
+# Online Bookstore & Library Management System
+## CityReads — Medallion Data Pipeline
 
 A Data Engineering capstone project. CityReads is an online bookstore that
 also runs a public lending library. This project builds a complete
