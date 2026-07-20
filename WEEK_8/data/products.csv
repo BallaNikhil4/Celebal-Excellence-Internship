@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,cost_price
+1,iPhone 15,Electronics,Laptops,6383.6
+2,Jeans,Clothing,Kids,10875.97
+3,Cap,Clothing,Men,29839.48
+4,Sofa,Home,Kitchen,39945.84
+5,   iPhone 15   ,Electronics,Mobiles,39520.23
+6,Cap,Clothing,Men,2714.71
+7,sql cOOKBOOK,Books,Fiction,22468.93
+8,Chair,Home,Furniture,47276.24
+9,USB Cable,Electronics,Laptops,48204.91
+10,Mechanical Keyboard,Electronics,Laptops,5487.3
+11,SQL Cookbook,Books,Programming,7501.86
+12,Kurta,Clothing,Kids,27462.99
+13,LED Lamp,Home,Decor,22740.4
+14,SQL Cookbook,Books,Fiction,32770.18
+15,Sweatshirt,Clothing,Women,20749.3
+16,Computer Networks,Books,Education,15696.16
+17,Mixer Grinder,Home,Furniture,34372.37
+18,SQL Cookbook,Books,Programming,4752.18
+19,Webcam,Electronics,Mobiles,29364.61
+20,Chair,Home,Furniture,33300.49
+21,Python Programming,Books,Education,17647.14
+22,Jacket,Clothing,Kids,42379.01
+23,Pressure Cooker,Home,Kitchen,28747.59
+24,Python Programming,Books,Fiction,41490.09
+25,Dining Table,Home,Kitchen,38144.23
+26,Pressure Cooker,Home,Kitchen,7248.25
+27,SQL Cookbook,Books,Programming,48593.33
+28,USB Cable,Electronics,Mobiles,22736.92
+29,Cap,Clothing,Women,38864.1
+30,iPhone 15,Electronics,Mobiles,30930.13
+31,Monitor,Electronics,Laptops,24334.52
+32,Computer Networks,Books,Education,25666.08
+33,LED Lamp,Home,Kitchen,33956.46
+34,Atomic Habits,Books,Programming,49223.84
+35,iPhone 15,Electronics,Mobiles,10640.58
+36,Kurta,Clothing,Women,485.72
+37,Machine Learning Basics,Books,Programming,35213.2
+38,Chair,Home,Furniture,2210.88
+39,Mechanical Keyboard,Electronics,Mobiles,28830.38
+40,Computer Networks,Books,Education,1140.74
+41,Sofa,Home,Decor,34511.54
+42,Chair,Home,Furniture,12241.49
+43,SQL Cookbook,Books,Education,37315.66
+44,cAP,Clothing,Men,31697.91
+45,Cap,Clothing,Women,40965.54
+46,Sneakers,Clothing,Men,9943.86
+47,Jeans,Clothing,Men,31434.64
+48,DSA Handbook,Books,Fiction,28268.14
+49,Pressure Cooker,Home,Kitchen,23499.16
+50,mIXER gRINDER,Home,Decor,25416.11
+51,   Wall Clock   ,Home,Furniture,18500.01
+52,Chair,Home,Decor,42779.14
+53,DSA Handbook,Books,Fiction,39611.71
+54,Mechanical Keyboard,Electronics,Accessories,16144.19
+55,Machine Learning Basics,Books,Programming,40567.24
+56,Chair,Home,Decor,2053.19
+57,DSA Handbook,Books,Fiction,8021.44
+58,Mixer Grinder,Home,Furniture,16984.52
+59,Webcam,Electronics,Mobiles,27942.36
+60,Atomic Habits,Books,Education,32862.55
+61,Cap,Clothing,Men,7157.28
+62,Mixer Grinder,Home,Decor,19658.7
+63,Monitor,Electronics,Accessories,39603.93
+64,Jeans,Clothing,Kids,25473.58
+65,Webcam,Electronics,Laptops,10788.21
+66,Clean Code,Books,Programming,7831.76
+67,Chair,Home,Decor,41772.48
+68,Webcam,Electronics,Accessories,18898.32
+69,Jacket,Clothing,Kids,40471.28
+70,Polo Shirt,Clothing,Men,33850.51
+71,Polo Shirt,Clothing,Kids,37451.97
+72,Clean Code,Books,Fiction,48283.27
+73,Clean Code,Books,Education,28563.93
+74,DSA Handbook,Books,Education,25195.04
+75,Machine Learning Basics,Books,Programming,7006.09
+76,Dining Table,Home,Decor,18623.48
+77,USB Cable,Electronics,Mobiles,38179.53
+78,Wall Clock,Home,Decor,21929.88
+79,Polo Shirt,Clothing,Women,20803.36
+80,Operating Systems,Books,Programming,4172.11
+81,T-Shirt,Clothing,Women,41974.9
+82,   Sofa   ,Home,Kitchen,45878.07
+83,Machine Learning Basics,Books,Fiction,30805.88
+84,iPhone 15,Electronics,Laptops,7561.03
+85,SQL Cookbook,Books,Education,6180.23
+86,Sweatshirt,Clothing,Kids,22909.97
+87,Mechanical Keyboard,Electronics,Accessories,31634.55
+88,Jacket,Clothing,Women,30779.0
+89,Sweatshirt,Clothing,Men,4372.14
+90,Chair,Home,Decor,39341.98
+91,   Wireless Mouse   ,Electronics,Laptops,19405.38
+92,   Mixer Grinder   ,Home,Decor,39447.15
+93,Microwave,Home,Decor,5272.83
+94,Sofa,Home,Kitchen,16993.51
+95,Polo Shirt,Clothing,Kids,9195.67
+96,Jeans,Clothing,Kids,22938.21
+97,Microwave,Home,Kitchen,44300.94
+98,Mixer Grinder,Home,Decor,40788.76
+99,Atomic Habits,Books,Programming,9636.06
+100,Dining Table,Home,Decor,6311.3
+101,LED Lamp,Home,Furniture,44742.41
+102,Operating Systems,Books,Programming,24926.42
+103,Chair,Home,Decor,21587.3
+104,Kurta,Clothing,Women,16463.2
+105,Mixer Grinder,Home,Furniture,21363.19
+106,   Operating Systems   ,Books,Education,43514.86
+107,LED Lamp,Home,Furniture,39594.74
+108,Samsung Galaxy S24,Electronics,Accessories,18229.23
+109,T-Shirt,Clothing,Men,33936.63
+110,pYTHON pROGRAMMING,Books,Programming,38947.92
+111,Pressure Cooker,Home,Furniture,1716.03
+112,Polo Shirt,Clothing,Women,38177.92
+113,Cap,Clothing,Women,14006.62
+114,iPhone 15,Electronics,Accessories,25935.49
+115,Monitor,Electronics,Laptops,10807.06
+116,Wall Clock,Home,Kitchen,42656.03
+117,Machine Learning Basics,Books,Fiction,4480.76
+118,pRESSURE cOOKER,Home,Decor,27154.35
+119,Sofa,Home,Decor,35040.94
+120,Cap,Clothing,Kids,49258.11
+121,   Sneakers   ,Clothing,Women,27745.67
+122,Wall Clock,Home,Decor,44223.9
+123,Monitor,Electronics,Laptops,35971.6
+124,cOMPUTER nETWORKS,Books,Fiction,48621.75
+125,Mechanical Keyboard,Electronics,Laptops,17291.29
+126,Jacket,Clothing,Women,43423.76
+127,USB Cable,Electronics,Mobiles,8182.15
+128,Cap,Clothing,Kids,42312.09
+129,Microwave,Home,Decor,13795.11
+130,Chair,Home,Decor,29631.24
+131,Jacket,Clothing,Kids,45109.84
+132,dINING tABLE,Home,Kitchen,47432.49
+133,Microwave,Home,Decor,31985.66
+134,Atomic Habits,Books,Fiction,24198.95
+135,aTOMIC hABITS,Books,Education,3089.66
+136,Computer Networks,Books,Education,17075.61
+137,Cap,Clothing,Kids,49402.37
+138,LED Lamp,Home,Kitchen,25797.51
+139,Webcam,Electronics,Mobiles,13446.84
+140,jACKET,Clothing,Men,47274.71
+141,Clean Code,Books,Programming,46694.2
+142,Microwave,Home,Kitchen,25784.77
+143,   Atomic Habits   ,Books,Education,47267.12
+144,Clean Code,Books,Programming,2528.04
+145,Wall Clock,Home,Decor,32747.58
+146,   Atomic Habits   ,Books,Fiction,5464.1
+147,Kurta,Clothing,Kids,20222.38
+148,Wireless Mouse,Electronics,Mobiles,9813.3
+149,Chair,Home,Furniture,38243.77
+150,Chair,Home,Kitchen,19755.8
+151,Pressure Cooker,Home,Kitchen,25505.21
+152,iPhone 15,Electronics,Mobiles,16718.73
+153,DSA Handbook,Books,Programming,25823.74
+154,Pressure Cooker,Home,Kitchen,30863.37
+155,Pressure Cooker,Home,Decor,26663.76
+156,Wall Clock,Home,Kitchen,33722.94
+157,Atomic Habits,Books,Fiction,31500.1
+158,Atomic Habits,Books,Fiction,38830.49
+159,T-Shirt,Clothing,Kids,26259.19
+160,Machine Learning Basics,Books,Fiction,28671.26
+161,HP Laptop,Electronics,Mobiles,20997.14
+162,Clean Code,Books,Education,30612.76
+163,Python Programming,Books,Fiction,10446.35
+164,Wall Clock,Home,Decor,47838.61
+165,Operating Systems,Books,Fiction,38622.29
+166,Wall Clock,Home,Kitchen,14022.42
+167,Microwave,Home,Furniture,35274.56
+168,Operating Systems,Books,Education,46691.65
+169,Mixer Grinder,Home,Kitchen,27205.22
+170,Operating Systems,Books,Programming,14452.75
+171,Webcam,Electronics,Laptops,37392.19
+172,Sneakers,Clothing,Kids,28144.7
+173,Sofa,Home,Kitchen,29382.84
+174,T-Shirt,Clothing,Kids,11361.02
+175,T-Shirt,Clothing,Men,35896.17
+176,Dell Laptop,Electronics,Mobiles,48897.74
+177,Sweatshirt,Clothing,Kids,43932.14
+178,Clean Code,Books,Education,32330.31
+179,Power Bank,Electronics,Mobiles,36183.57
+180,Dell Laptop,Electronics,Laptops,8871.86
+181,Wireless Mouse,Electronics,Laptops,37475.26
+182,Dining Table,Home,Kitchen,30178.87
+183,Mixer Grinder,Home,Furniture,27210.69
+184,Machine Learning Basics,Books,Fiction,9721.29
+185,Webcam,Electronics,Mobiles,32449.44
+186,T-Shirt,Clothing,Kids,14821.71
+187,Jacket,Clothing,Kids,44862.43
+188,Operating Systems,Books,Programming,4859.72
+189,Polo Shirt,Clothing,Women,440.82
+190,Clean Code,Books,Education,47706.34
+191,Dining Table,Home,Furniture,34669.15
+192,Samsung Galaxy S24,Electronics,Laptops,20330.29
+193,Chair,Home,Decor,14822.38
+194,Sneakers,Clothing,Men,22803.44
+195,LED Lamp,Home,Decor,23594.32
+196,Sneakers,Clothing,Kids,43669.44
+197,USB Cable,Electronics,Laptops,18153.06
+198,iPhone 15,Electronics,Accessories,10187.62
+199,Jacket,Clothing,Women,22147.84
+200,Polo Shirt,Clothing,Men,22329.59
+201,Mechanical Keyboard,Electronics,Mobiles,22894.24
+202,USB Cable,Electronics,Laptops,15477.66
+203,Wireless Mouse,Electronics,Laptops,37315.64
+204,iPhone 15,Electronics,Laptops,3281.62
+205,   Samsung Galaxy S24   ,Electronics,Laptops,20502.46
+206,Sweatshirt,Clothing,Women,19185.73
+207,Computer Networks,Books,Programming,33123.45
+208,Cap,Clothing,Men,26909.2
+209,Sneakers,Clothing,Men,48926.69
+210,Computer Networks,Books,Fiction,11560.24
+211,Operating Systems,Books,Programming,46876.78
+212,iPhone 15,Electronics,Accessories,38326.07
+213,hp lAPTOP,Electronics,Mobiles,29737.81
+214,Python Programming,Books,Programming,20173.04
+215,Sneakers,Clothing,Men,49674.82
+216,Cap,Clothing,Kids,33659.34
+217,Microwave,Home,Furniture,49286.21
+218,Sweatshirt,Clothing,Women,27880.23
+219,Sweatshirt,Clothing,Kids,48617.28
+220,Operating Systems,Books,Fiction,7545.96
+221,Machine Learning Basics,Books,Fiction,42482.11
+222,Sofa,Home,Furniture,28163.06
+223,Machine Learning Basics,Books,Education,10246.5
+224,mECHANICAL kEYBOARD,Electronics,Laptops,36256.78
+225,T-Shirt,Clothing,Women,30287.98
+226,Samsung Galaxy S24,Electronics,Mobiles,29420.43
+227,Polo Shirt,Clothing,Men,16714.92
+228,HP Laptop,Electronics,Mobiles,5954.08
+229,Clean Code,Books,Fiction,10305.21
+230,Cap,Clothing,Women,26729.14
+231,Mixer Grinder,Home,Furniture,44152.32
+232,SQL Cookbook,Books,Fiction,42002.59
+233,Cap,Clothing,Women,28169.98
+234,Jacket,Clothing,Men,46744.44
+235,Atomic Habits,Books,Programming,11577.93
+236,Polo Shirt,Clothing,Kids,34273.85
+237,Wall Clock,Home,Decor,24580.72
+238,Cap,Clothing,Men,27372.66
+239,   T-Shirt   ,Clothing,Kids,42350.2
+240,iPhone 15,Electronics,Laptops,31572.01
+241,Dell Laptop,Electronics,Mobiles,22854.88
+242,Power Bank,Electronics,Accessories,30864.32
+243,   DSA Handbook   ,Books,Programming,27627.01
+244,iPhone 15,Electronics,Accessories,26833.33
+245,Dining Table,Home,Decor,33734.24
+246,Jeans,Clothing,Men,12124.34
+247,Pressure Cooker,Home,Furniture,4043.06
+248,DSA Handbook,Books,Fiction,34892.09
+249,Chair,Home,Decor,32529.73
+250,Samsung Galaxy S24,Electronics,Laptops,27679.8
+251,iPhone 15,Electronics,Accessories,25042.93
+252,Operating Systems,Books,Fiction,48694.6
+253,HP Laptop,Electronics,Mobiles,34645.16
+254,Atomic Habits,Books,Programming,34252.99
+255,Dining Table,Home,Kitchen,15792.79
+256,Jacket,Clothing,Kids,46450.86
+257,Sofa,Home,Decor,41749.06
+258,Operating Systems,Books,Education,7083.53
+259,USB Cable,Electronics,Accessories,2779.45
+260,Clean Code,Books,Programming,38473.38
+261,Operating Systems,Books,Programming,39199.05
+262,DSA Handbook,Books,Programming,47063.03
+263,Machine Learning Basics,Books,Fiction,19065.63
+264,mICROWAVE,Home,Decor,13471.8
+265,Machine Learning Basics,Books,Fiction,18098.94
+266,iPhone 15,Electronics,Laptops,38091.19
+267,Dell Laptop,Electronics,Mobiles,22497.3
+268,sql cOOKBOOK,Books,Programming,27755.57
+269,LED Lamp,Home,Kitchen,19451.2
+270,USB Cable,Electronics,Mobiles,8562.19
+271,Machine Learning Basics,Books,Programming,13493.5
+272,Jeans,Clothing,Men,21113.01
+273,SQL Cookbook,Books,Education,12404.84
+274,Clean Code,Books,Education,15302.43
+275,Operating Systems,Books,Fiction,43123.7
+276,Operating Systems,Books,Education,42989.47
+277,Kurta,Clothing,Women,34795.09
+278,Operating Systems,Books,Programming,48439.39
+279,Wall Clock,Home,Decor,16361.72
+280,LED Lamp,Home,Furniture,28236.14
+281,T-Shirt,Clothing,Kids,35447.52
+282,aTOMIC hABITS,Books,Fiction,42404.62
+283,DSA Handbook,Books,Programming,12176.86
+284,sWEATSHIRT,Clothing,Women,49535.96
+285,Computer Networks,Books,Fiction,46027.57
+286,Python Programming,Books,Education,40633.62
+287,Samsung Galaxy S24,Electronics,Mobiles,17814.94
+288,Power Bank,Electronics,Accessories,20040.93
+289,   LED Lamp   ,Home,Kitchen,13011.04
+290,Polo Shirt,Clothing,Women,38639.88
+291,Cap,Clothing,Men,14842.07
+292,Samsung Galaxy S24,Electronics,Accessories,15663.33
+293,Clean Code,Books,Fiction,23860.51
+294,dsa hANDBOOK,Books,Education,2329.68
+295,iPhone 15,Electronics,Laptops,33889.25
+296,Sneakers,Clothing,Kids,8090.77
+297,DSA Handbook,Books,Programming,31525.04
+298,   Sweatshirt   ,Clothing,Women,30743.94
+299,Polo Shirt,Clothing,Kids,322.06
+300,Sneakers,Clothing,Women,40455.62
+301,Power Bank,Electronics,Mobiles,26890.76
+302,Pressure Cooker,Home,Kitchen,13191.43
+303,Operating Systems,Books,Fiction,19687.95
+304,Webcam,Electronics,Laptops,30906.4
+305,Chair,Home,Decor,5981.3
+306,Chair,Home,Kitchen,7153.79
+307,Computer Networks,Books,Fiction,19247.13
+308,Polo Shirt,Clothing,Kids,45966.13
+309,Jacket,Clothing,Women,9436.22
+310,Python Programming,Books,Education,24281.99
+311,Sweatshirt,Clothing,Kids,24799.0
+312,Computer Networks,Books,Fiction,24486.11
+313,Power Bank,Electronics,Mobiles,11104.42
+314,Monitor,Electronics,Mobiles,8493.63
+315,DSA Handbook,Books,Fiction,28678.43
+316,Pressure Cooker,Home,Decor,2176.37
+317,Clean Code,Books,Education,41520.53
+318,Kurta,Clothing,Men,17493.99
+319,Mechanical Keyboard,Electronics,Mobiles,11923.61
+320,LED Lamp,Home,Kitchen,39263.98
+321,T-Shirt,Clothing,Kids,14126.14
+322,Cap,Clothing,Kids,28679.51
+323,Dell Laptop,Electronics,Laptops,49625.06
+324,Jacket,Clothing,Men,16172.63
+325,Sweatshirt,Clothing,Women,31656.86
+326,cOMPUTER nETWORKS,Books,Education,39750.47
+327,Wireless Mouse,Electronics,Accessories,34765.71
+328,Wall Clock,Home,Furniture,223.41
+329,Mechanical Keyboard,Electronics,Accessories,17975.31
+330,USB Cable,Electronics,Laptops,21539.19
+331,Polo Shirt,Clothing,Women,14251.29
+332,Polo Shirt,Clothing,Women,38136.48
+333,Samsung Galaxy S24,Electronics,Accessories,23033.13
+334,Dell Laptop,Electronics,Laptops,49592.73
+335,Clean Code,Books,Fiction,44119.17
+336,sOFA,Home,Furniture,18085.73
+337,Webcam,Electronics,Accessories,8359.7
+338,Atomic Habits,Books,Fiction,11783.78
+339,Samsung Galaxy S24,Electronics,Mobiles,3989.14
+340,   Polo Shirt   ,Clothing,Men,17244.35
+341,Wireless Mouse,Electronics,Accessories,3634.33
+342,SQL Cookbook,Books,Fiction,5249.76
+343,Mixer Grinder,Home,Kitchen,40687.06
+344,Jacket,Clothing,Men,522.89
+345,Polo Shirt,Clothing,Women,31441.19
+346,Sweatshirt,Clothing,Kids,43012.13
+347,Samsung Galaxy S24,Electronics,Mobiles,29519.74
+348,Operating Systems,Books,Education,7077.53
+349,Chair,Home,Kitchen,30040.39
+350,Dining Table,Home,Decor,10351.74
+351,Sweatshirt,Clothing,Women,39211.7
+352,Polo Shirt,Clothing,Women,25029.17
+353,USB Cable,Electronics,Mobiles,46702.83
+354,Sweatshirt,Clothing,Kids,27363.18
+355,   Polo Shirt   ,Clothing,Men,3469.88
+356,Microwave,Home,Kitchen,47439.13
+357,Atomic Habits,Books,Fiction,38378.79
+358,Computer Networks,Books,Programming,26929.0
+359,Kurta,Clothing,Men,25614.1
+360,Jacket,Clothing,Kids,29363.21
+361,Monitor,Electronics,Accessories,47676.06
+362,t-sHIRT,Clothing,Men,21780.73
+363,Python Programming,Books,Education,32936.81
+364,Jeans,Clothing,Men,35104.83
+365,Polo Shirt,Clothing,Women,39171.06
+366,Sofa,Home,Furniture,39078.09
+367,Chair,Home,Kitchen,21523.3
+368,Monitor,Electronics,Accessories,31413.89
+369,DSA Handbook,Books,Fiction,25030.54
+370,Cap,Clothing,Men,5234.96
+371,HP Laptop,Electronics,Accessories,2297.49
+372,HP Laptop,Electronics,Mobiles,19210.68
+373,Jacket,Clothing,Men,45705.99
+374,Clean Code,Books,Education,45801.15
+375,Mixer Grinder,Home,Kitchen,6058.11
+376,Dell Laptop,Electronics,Mobiles,49072.55
+377,SQL Cookbook,Books,Education,38699.02
+378,Pressure Cooker,Home,Kitchen,497.66
+379,Kurta,Clothing,Kids,37004.84
+380,Polo Shirt,Clothing,Women,24718.7
+381,   Sneakers   ,Clothing,Men,20560.8
+382,Cap,Clothing,Kids,43872.21
+383,Dining Table,Home,Decor,36930.32
+384,Chair,Home,Kitchen,11984.56
+385,Python Programming,Books,Programming,4742.03
+386,Sweatshirt,Clothing,Kids,22977.06
+387,Power Bank,Electronics,Mobiles,31897.06
+388,SQL Cookbook,Books,Fiction,21805.65
+389,Sneakers,Clothing,Women,15818.94
+390,Operating Systems,Books,Education,11757.2
+391,Jacket,Clothing,Kids,5372.32
+392,DSA Handbook,Books,Education,26842.63
+393,Polo Shirt,Clothing,Women,42638.86
+394,Dell Laptop,Electronics,Accessories,35264.77
+395,HP Laptop,Electronics,Laptops,35586.75
+396,   LED Lamp   ,Home,Decor,15012.15
+397,T-Shirt,Clothing,Women,27842.09
+398,Jeans,Clothing,Women,39711.11
+399,iPhone 15,Electronics,Mobiles,49130.11
+400,Sneakers,Clothing,Women,31551.85
+401,Power Bank,Electronics,Accessories,40656.08
+402,Samsung Galaxy S24,Electronics,Mobiles,22227.22
+403,Jeans,Clothing,Women,47119.8
+404,Dell Laptop,Electronics,Accessories,36249.1
+405,Python Programming,Books,Education,8723.08
+406,Jacket,Clothing,Women,44182.85
+407,Power Bank,Electronics,Accessories,32399.19
+408,Computer Networks,Books,Fiction,4477.31
+409,Machine Learning Basics,Books,Education,44244.16
+410,T-Shirt,Clothing,Women,18019.69
+411,Operating Systems,Books,Fiction,19480.23
+412,T-Shirt,Clothing,Women,1562.24
+413,Dining Table,Home,Furniture,38365.42
+414,Jacket,Clothing,Men,12133.52
+415,HP Laptop,Electronics,Accessories,39889.8
+416,Sofa,Home,Kitchen,15968.42
+417,Dining Table,Home,Decor,47383.18
+418,Sneakers,Clothing,Women,8860.28
+419,Samsung Galaxy S24,Electronics,Mobiles,11018.57
+420,Python Programming,Books,Education,10153.07
+421,Cap,Clothing,Kids,40140.98
+422,Dining Table,Home,Kitchen,35264.35
+423,Jeans,Clothing,Kids,48031.88
+424,LED Lamp,Home,Decor,15158.08
+425,Jacket,Clothing,Kids,39612.94
+426,Operating Systems,Books,Programming,28142.67
+427,Microwave,Home,Decor,8850.05
+428,Mixer Grinder,Home,Kitchen,189.72
+429,Python Programming,Books,Programming,46059.81
+430,Jeans,Clothing,Women,37292.63
+431,Cap,Clothing,Women,44277.48
+432,   Webcam   ,Electronics,Laptops,10563.25
+433,Webcam,Electronics,Laptops,36048.64
+434,Wireless Mouse,Electronics,Laptops,48458.18
+435,DSA Handbook,Books,Education,18829.84
+436,Clean Code,Books,Programming,39979.81
+437,Monitor,Electronics,Mobiles,47587.94
+438,Webcam,Electronics,Mobiles,8129.13
+439,USB Cable,Electronics,Mobiles,49265.28
+440,Python Programming,Books,Education,8333.36
+441,Machine Learning Basics,Books,Programming,10356.97
+442,Sweatshirt,Clothing,Kids,46286.12
+443,Mixer Grinder,Home,Furniture,2576.81
+444,Machine Learning Basics,Books,Programming,21437.54
+445,wALL cLOCK,Home,Kitchen,10426.95
+446,Chair,Home,Furniture,15486.83
+447,DSA Handbook,Books,Education,13323.72
+448,Machine Learning Basics,Books,Education,18533.14
+449,Python Programming,Books,Education,13243.7
+450,Dining Table,Home,Kitchen,33406.68
+451,Webcam,Electronics,Accessories,37847.2
+452,T-Shirt,Clothing,Women,20989.74
+453,Clean Code,Books,Education,19800.74
+454,USB Cable,Electronics,Accessories,40042.47
+455,Jeans,Clothing,Women,49219.96
+456,   Sneakers   ,Clothing,Men,4010.59
+457,Clean Code,Books,Fiction,29792.88
+458,Chair,Home,Kitchen,19928.01
+459,Mixer Grinder,Home,Decor,43685.97
+460,SQL Cookbook,Books,Education,28373.04
+461,Samsung Galaxy S24,Electronics,Accessories,39308.71
+462,LED Lamp,Home,Furniture,24330.68
+463,Python Programming,Books,Programming,7278.25
+464,Python Programming,Books,Education,16641.55
+465,T-Shirt,Clothing,Kids,13502.36
+466,Dining Table,Home,Furniture,15222.44
+467,Wall Clock,Home,Decor,48627.58
+468,Jacket,Clothing,Women,22211.22
+469,Mixer Grinder,Home,Decor,32313.19
+470,Polo Shirt,Clothing,Men,20417.8
+471,Operating Systems,Books,Programming,8032.72
+472,LED Lamp,Home,Kitchen,26261.88
+473,Dell Laptop,Electronics,Mobiles,10116.27
+474,HP Laptop,Electronics,Mobiles,45909.75
+475,Kurta,Clothing,Women,25305.81
+476,iPhone 15,Electronics,Mobiles,29742.78
+477,Polo Shirt,Clothing,Kids,17278.03
+478,   Chair   ,Home,Furniture,2577.59
+479,Sneakers,Clothing,Kids,10415.88
+480,   Python Programming   ,Books,Fiction,45584.62
+481,T-Shirt,Clothing,Men,40273.77
+482,Mixer Grinder,Home,Furniture,42594.15
+483,Atomic Habits,Books,Programming,33892.09
+484,SQL Cookbook,Books,Programming,33151.54
+485,Mixer Grinder,Home,Furniture,24138.75
+486,Mixer Grinder,Home,Decor,13916.56
+487,Microwave,Home,Kitchen,12091.07
+488,Power Bank,Electronics,Laptops,34069.71
+489,Mechanical Keyboard,Electronics,Laptops,20986.43
+490,Python Programming,Books,Fiction,28644.92
+491,Cap,Clothing,Kids,34347.27
+492,Operating Systems,Books,Fiction,8582.33
+493,Kurta,Clothing,Men,37071.85
+494,cAP,Clothing,Kids,17828.64
+495,LED Lamp,Home,Furniture,29319.98
+496,sql cOOKBOOK,Books,Education,31756.4
+497,Mechanical Keyboard,Electronics,Mobiles,43388.14
+498,aTOMIC hABITS,Books,Education,42726.56
+499,Sneakers,Clothing,Women,28513.24
+500,Machine Learning Basics,Books,Education,9099.8

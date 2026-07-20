@@ -1,0 +1,58 @@
+DATA QUALITY REPORT
+========================================
+
+Row 22: Date format corrected
+Row 36: Date format corrected
+Row 50: Date format corrected
+Row 54: Date format corrected
+Row 79: Date format corrected
+Row 94: Date format corrected
+Row 98: Date format corrected
+Row 99: Date format corrected
+Row 114: Date format corrected
+Row 175: Date format corrected
+Row 227: Date format corrected
+Row 235: Date format corrected
+Row 249: Date format corrected
+Row 282: Date format corrected
+Row 288: Date format corrected
+Row 310: Date format corrected
+Row 316: Date format corrected
+Row 354: Date format corrected
+Row 373: Date format corrected
+Row 422: Date format corrected
+Row 490: Date format corrected
+Row 497: Date format corrected
+Row 509: Date format corrected
+Row 522: Date format corrected
+Row 525: Date format corrected
+Row 555: Date format corrected
+Row 581: Date format corrected
+Row 584: Date format corrected
+Row 602: Date format corrected
+Row 604: Date format corrected
+Row 638: Date format corrected
+Row 691: Date format corrected
+Row 699: Date format corrected
+Row 715: Date format corrected
+Row 753: Date format corrected
+Row 768: Date format corrected
+Row 794: Date format corrected
+Row 815: Date format corrected
+Row 842: Date format corrected
+Row 848: Date format corrected
+Row 856: Date format corrected
+Row 863: Date format corrected
+Row 866: Date format corrected
+Row 870: Date format corrected
+Row 897: Date format corrected
+Row 918: Date format corrected
+Row 939: Date format corrected
+Row 948: Date format corrected
+Row 970: Date format corrected
+Row 998: Date format corrected
+Missing customer_id fixed: 47
+Product names normalized: 121
+
+Invalid Emails : 7
+Invalid Order References : 0
